@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="ECE 2016"
+            id="org.eclipsecon.europe2016">
+      </category>
+      <view
+            name="ECE2016 DemoRunner"
+            icon="icons/sample.gif"
+            category="org.eclipsecon.europe2016"
+            class="org.eclipsecon.europe2016.progressmonitor.views.DemoRunner"
+            id="org.eclipsecon.europe2016.progressmonitor.views.DemoRunner">
+      </view>
+   </extension>
+
+</plugin>
